@@ -1,0 +1,71 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #20B2AA;
+  height: 100%;
+}
+.fon1 {
+  width: 300px;
+  height: 100%;
+background: #008000;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slider{
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  /* margin: 0 auto; */
+}
+
+
+
+.photo {
+  display: flex;
+  max-width: 128px;
+
+
+}
+
+.slider .slick-arrow:hover {
+  cursor: pointer;
+}
+
+
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-dots{
+  color: beiges;
+}
+.slider .slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+
+@media (min-width: 1024px) {
+  .slider{
+    max-width: 1024px
+  }
+  .photo{
+    max-width: 256px;
+  }
+
+}
